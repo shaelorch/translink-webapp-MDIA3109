@@ -28,7 +28,7 @@ export default function Home() {
     
       
       <main className={styles.main}>
-        
+        <Text></Text>
         <Map/>
         
       </main>

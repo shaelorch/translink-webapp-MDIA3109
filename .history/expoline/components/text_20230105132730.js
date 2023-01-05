@@ -1,0 +1,17 @@
+import styled from "styled-components";
+
+const TextCont = styled.div`
+    font-family: "ArialPlaceholderBeforeFiraIsLoaded", Helvetica, sans-serif;
+    background-color:white;
+    color:#183152;
+    font-weight:bold;
+    padding:50px;
+`
+
+export default function Text() {
+
+    return <TextCont>
+        <h1>Skytrain Stations</h1>
+    </TextCont>
+
+}

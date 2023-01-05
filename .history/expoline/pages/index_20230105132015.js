@@ -5,12 +5,7 @@ import styles from '../styles/Home.module.css'
 import Map from '../components/Map'
 import Header from '../components/header'
 import react from 'react'
-import styled from 'styled-components'
-import Text from '../components/text'
-
-const MapCont = styled.div`
-  
-`
+import Divider from "react"
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -25,10 +20,10 @@ export default function Home() {
       </Head>
 
       <Header/>
-    
+      <Divider/>
       
       <main className={styles.main}>
-        
+      
         <Map/>
         
       </main>
