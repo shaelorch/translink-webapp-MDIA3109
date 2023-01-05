@@ -148,34 +148,6 @@ export default function Map() {
                 </Popup>
             </Marker>
 
-            <Marker position={[49.20102097877474, -122.8508964126631]} pathOptions={blueOption}>
-                <Popup>Gateway Station<br/> | Expo Line |</Popup>
-            </Marker>
-
-            <Marker position={[49.1897209413475, -122.84797435958329]} pathOptions={blueOption}>
-                <Popup>Surrey Central Station<br/>| Expo Line |</Popup>
-            </Marker>
-
-            <Marker position={[49.18290999816236, -122.84478657307581]} pathOptions={blueOption}>
-                <Popup>King George Station<br/>| Expo Line |</Popup>
-            </Marker>
-
-            <Marker position={[49.22559946869088, -122.88933206544792]} pathOptions={blueOption}>
-                <Popup>Sapperton Station<br/>| Expo Line |</Popup>
-            </Marker>
-
-            <Marker position={[49.23299466100193, -122.88290531725335]} pathOptions={blueOption}>
-                <Popup>Braid Station<br/>| Expo Line |</Popup>
-            </Marker>
-
-            <Marker position={[49.248814953016954, -122.89720949397046]} pathOptions={blueOption}>
-                <Popup>Lougheed Town Centre Station<br/>| Milleniun Line & Expo Line |</Popup>
-            </Marker>
-
-            <Marker position={[49.25367127330616, -122.9187357167187]} pathOptions={blueOption}>
-                <Popup>Production Way-University Station<br/>| Milleniun Line & Expo Line |</Popup>
-            </Marker>
-
             
            
             <Polyline pathOptions={blueOption} positions={polyline} />
