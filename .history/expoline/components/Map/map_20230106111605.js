@@ -13,7 +13,7 @@ import { MapContainer, TileLayer, Marker, Popup, Polyline, CircleMarker } from '
 export default function Map() {
     const position = [49.28594, -123.11129];
 
-    const blueOption = { color: "#005DAF", weight:5, lineJoin:"bevel" };
+    const blueOption = { color: "#005DAF", weight:8, lineJoin:"bevel" };
 
     const redOption = {color: 'red' };
 
