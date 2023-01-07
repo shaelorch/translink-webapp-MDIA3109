@@ -8,8 +8,6 @@ import react from 'react'
 import styled from 'styled-components'
 import Text from '../components/text'
 import Body from '../components/body'
-import {AiOutlinePlus} from "react-icons/ai"
-import Footer from '../components/footer'
 
 const MapCont = styled.div`
   
@@ -19,11 +17,9 @@ const inter = Inter({ subsets: ['latin'] })
 
 
 
-
-
 export default function Home() {
-  const style = {color:"#183152", fontFamily:"Helvetica, sans-serif", paddingTop:30, paddingBottom:30}
-  const pstyle = {color:"#183152", fontFamily:"Helvetica, sans-serif", paddingBottom:8}
+  const style = {color:"#183152", fontFamily:"Helvetica, sans-serif", paddingTop:30, paddingBottom:50}
+  const pstyle = {color:"#183152", fontFamily:"Helvetica, sans-serif"}
   return (
     <>
         <Head>
@@ -40,7 +36,7 @@ export default function Home() {
         
         <Map/>
         <div>
-           <h1 style={style}>Expo Line</h1>
+           <h2 style={style}>Expo Line</h2>
            <p style={{color:"#183152", fontFamily:"Helvetica, sans-serif", paddingBottom:20}}>
            The Expo Line operates two routes:</p>
 
@@ -56,25 +52,14 @@ export default function Home() {
 
            <p style={pstyle}>- Production Way–University Station</p>
 
-           <p style={{color:"#183152", fontFamily:"Helvetica, sans-serif", paddingTop:20}}>Use Columbia Station to transfer to and from a train going to either King George or Production Way–University.</p>
+           <p style={pstyle}>- Use Columbia Station to transfer to and from a train going to either King George or Production Way–University.</p>
 
-           <p style={{color:"#183152", fontFamily:"Helvetica, sans-serif", paddingTop:20, paddingBottom:30}}>Use Waterfront Station to transfer to the Canada Line, SeaBus, or West Coast Express.
+           <p style={pstyle}>- Use Waterfront Station to transfer to the Canada Line, SeaBus, or West Coast Express.
               </p>
         </div>
-
-        <hr class="solid"/>
-        <div style={{display:"flex", alignItems:"center", justifyContent:"space-between"}}>
-          <h1 style={style}>Expo Line Schedule</h1>
-          <AiOutlinePlus style={{color:"#183152", width:30, height:30, display:"flex"}}/>
-        </div>
-        
-        <hr class="solid"/>
-
        
         
       </main>
-      <hr class="solid"/>
-      <Footer/>
     </>
   )
 }

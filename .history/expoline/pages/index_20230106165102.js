@@ -9,7 +9,6 @@ import styled from 'styled-components'
 import Text from '../components/text'
 import Body from '../components/body'
 import {AiOutlinePlus} from "react-icons/ai"
-import Footer from '../components/footer'
 
 const MapCont = styled.div`
   
@@ -73,8 +72,6 @@ export default function Home() {
        
         
       </main>
-      <hr class="solid"/>
-      <Footer/>
     </>
   )
 }

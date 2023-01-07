@@ -20,7 +20,7 @@ const Logo = styled.img`
 export default function Footer() {
 
     return <FooterCont>
-        <div style={{display:"flex", flexDirection:"column"}}>
+        <div>
             <Logo src="./translink.png"/>
             <p style={{color:"#183152", fontFamily:"Helvetica, sans-serif"}}>Metro Vancouver's transportation network, serving residents and visitors with public transit, major roads, bridges and Trip Planning.</p>
         </div>

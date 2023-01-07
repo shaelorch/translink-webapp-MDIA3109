@@ -9,7 +9,6 @@ import styled from 'styled-components'
 import Text from '../components/text'
 import Body from '../components/body'
 import {AiOutlinePlus} from "react-icons/ai"
-import Footer from '../components/footer'
 
 const MapCont = styled.div`
   
@@ -65,7 +64,7 @@ export default function Home() {
         <hr class="solid"/>
         <div style={{display:"flex", alignItems:"center", justifyContent:"space-between"}}>
           <h1 style={style}>Expo Line Schedule</h1>
-          <AiOutlinePlus style={{color:"#183152", width:30, height:30, display:"flex"}}/>
+          <AiOutlinePlus style={{color:"#183152", width:30, height:30, display:"flex", fontWeight:"bold"}}/>
         </div>
         
         <hr class="solid"/>
@@ -73,8 +72,6 @@ export default function Home() {
        
         
       </main>
-      <hr class="solid"/>
-      <Footer/>
     </>
   )
 }

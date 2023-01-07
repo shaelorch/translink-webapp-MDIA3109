@@ -70,11 +70,9 @@ export default function Home() {
         
         <hr class="solid"/>
 
-       
+       <Footer/>
         
       </main>
-      <hr class="solid"/>
-      <Footer/>
     </>
   )
 }
