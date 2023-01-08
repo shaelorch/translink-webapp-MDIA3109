@@ -7,7 +7,7 @@ const FooterCont = styled.div`
     display:flex;
     flex-direction:row;
     justify-content:space-between;
-    padding-top:40px;
+    
 `
 
 const Logo = styled.img`
@@ -16,15 +16,14 @@ const Logo = styled.img`
     display:flex;
     justify-content:left;
     margin-top:30px;
-    
+    margin-left:20px;
         
 `
 
 export default function Footer() {
 
     return <FooterCont>
-    
-        <div style={{display:"flex", flexDirection:"column", marginLeft:20}}>
+        <div style={{display:"flex", flexDirection:"column", marginLeft:10, alignContent:"center"}}>
             <Logo src="./translink.png"/>
             <p style={{color:"#183152", fontFamily:"Helvetica, sans-serif"}}>Metro Vancouver's transportation network, serving residents and visitors with public transit, major roads, bridges and Trip Planning.</p>
         </div>

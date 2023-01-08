@@ -75,7 +75,7 @@ export default function Home() {
         
       </main>
       <Inputs/>
-      <hr class="solid"/>
+      
       <Footer/>
     </>
   )

@@ -10,7 +10,7 @@ import Text from '../components/text'
 import Body from '../components/body'
 import {AiOutlinePlus} from "react-icons/ai"
 import Footer from '../components/footer'
-import Inputs from '../components/input'
+import Input from '../components/input'
 
 const MapCont = styled.div`
   
@@ -74,7 +74,6 @@ export default function Home() {
        
         
       </main>
-      <Inputs/>
       <hr class="solid"/>
       <Footer/>
     </>
